@@ -50,8 +50,14 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 
 Capturas Cloud:
+
+Sensores Activos:
 ![imagen](https://github.com/user-attachments/assets/f93988b5-fc18-4d2b-932f-3791e5d747c5)
+
+Gráfica de Valores del Sensor Lumínico:
 ![imagen](https://github.com/user-attachments/assets/67387305-d123-41a3-b70e-ff5779b39af5)
+
+Actuadores Activos
 ![imagen](https://github.com/user-attachments/assets/695f291f-4279-461f-bd1e-50d755727200)
 
 
