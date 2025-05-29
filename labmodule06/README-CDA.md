@@ -42,6 +42,11 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - MqttClientConnectorTest
 - MqttClientControlPacketTest
-- 
+
+Wireshark MqttClientConnectorTest
+![imagen](https://github.com/user-attachments/assets/51de6fec-0460-47d8-bebd-498e12fdddb4)
+Wireshark MqttClientControlPacketTest
+![imagen](https://github.com/user-attachments/assets/fec7ae17-de24-44a7-bcdf-1ccfae8e25b5)
+
 
 EOF.
