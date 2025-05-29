@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Mi implementación en el CDA añade soporte para un nuevo sensor de luz que genera lecturas simuladas de luminosidad, y un actuador de ventilador que puede activarse o desactivarse en función de comandos recibidos desde el GDA.
+
 How does your implementation work?
+
+Se crean los archivos FanActuatorEmulatorTask y LightSensorEmulatorTask. Estos siguen la misma lógica que el resto de simuladores tanto en funcionamiento como en integración. Su información se envia por MQTT o CoAP al GDA.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/tomasrial46/python-components/tree/labmodule12
 
 
 ### Unit Tests Executed

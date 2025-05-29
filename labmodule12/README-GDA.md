@@ -10,13 +10,21 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Se añaden los métodos necesarios para que sea capaz de recibir los datos nuevos que le llegan por MQTT o CoAP y se conecta a cloud para enviarlos como hace con el resto de sensores y actuadores.
+
 How does your implementation work?
+
+El GDA recibe datos del sensor de luz del CDA y los reenvía a la nube usando CloudClientConnector.
+
+Cuando el GDA recibe ese comando a través del topic MQTT del actuador, el mensaje se procesa en el DefaultDataMessageListener, y se crea un ActuatorData que se reenvía al CDA para que active o desactive el ventilador.
+
+Se han añadido tests de prueba al CloudClientConnectorTest para probar estos nuevos sensor/actuador.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/tomasrial46/java-components/tree/labmodule12
 
 
 
@@ -37,8 +45,14 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
+- CloudClientConnectorTest
 - 
 - 
-- 
+
+Capturas Cloud:
+![alt text](<Imagen pegada.png>)
+![alt text](<Imagen pegada (2).png>)
+![alt text](<Imagen pegada (3).png>)
+
 
 EOF.
