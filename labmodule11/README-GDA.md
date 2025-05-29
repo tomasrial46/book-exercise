@@ -46,4 +46,11 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 Capturas Cloud:
 
+![imagen](https://github.com/user-attachments/assets/37dd839d-adcf-46ac-9b18-8228baa3fd0d)
+
+![imagen](https://github.com/user-attachments/assets/a73891dc-f8fd-42e7-ad05-4db82de19b53)
+
+![imagen](https://github.com/user-attachments/assets/a331613e-f620-4c04-9f90-afe502af65e5)
+
+
 EOF.
