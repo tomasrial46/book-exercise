@@ -50,9 +50,10 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 
 Capturas Cloud:
-![alt text](<Imagen pegada.png>)
-![alt text](<Imagen pegada (2).png>)
-![alt text](<Imagen pegada (3).png>)
+![imagen](https://github.com/user-attachments/assets/f93988b5-fc18-4d2b-932f-3791e5d747c5)
+![imagen](https://github.com/user-attachments/assets/67387305-d123-41a3-b70e-ff5779b39af5)
+![imagen](https://github.com/user-attachments/assets/695f291f-4279-461f-bd1e-50d755727200)
+
 
 
 EOF.
