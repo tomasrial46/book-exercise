@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+    Mi implementación permite una comunicación segura entre el Agente de Datos del Gateway (GDA) local y el servicio Ubidots, utilizando el protocolo MQTT. Esto facilita el envío de datos desde dispositivos IoT hacia la nube.
+
 How does your implementation work?
+
+    El sistema se construye actualizando el MqttClientConnector para gestionar conexiones, suscripciones y el manejo de mensajes. Se define una interfaz ICloudClient, que es implementada por la clase CloudClientConnector, la cual utiliza internamente el MqttClientConnector. Este conector se encarga de procesar los mensajes entrantes desde la nube y enviarlos al DeviceDataManager, permitiendo una integración fluida entre los dispositivos locales y en la nube.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/tomasrial46/java-components/tree/labmodule11
 
 
 ### Unit Tests Executed
@@ -36,8 +40,10 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
+- MqttClientConnectorTest
+- CloudClientConnectorTest
 - 
-- 
-- 
+
+Capturas Cloud:
 
 EOF.

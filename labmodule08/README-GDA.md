@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Implementación de servidor Coap para mejorar la comunicación entre dispositivos.
+
 How does your implementation work?
+
+La clase CoapServerGateway crea un servidor CoAP que organiza los recursos según rutas jerárquicas definidas. Al iniciar, registra manejadores que procesan los mensajes entrantes, lo que asegura flexibilidad y compatibilidad con el modelo del GDA.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/tomasrial46/java-components/tree/labmodule08
 
 
 ### Unit Tests Executed
@@ -36,7 +40,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
+- CoapServerGatewayTest
 - 
 - 
 
