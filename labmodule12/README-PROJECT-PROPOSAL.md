@@ -27,6 +27,8 @@ How do you plan to tackle this problem technically?
 
 El enfoque técnico se basa en el uso de MQTT/CoAP como protocolo de comunicación. El CDA recolecta datos del LightSensor y los envía al GDA. El GDA reenvía esta información a la nube. Estos datos definen la activación del ventilador.
 
+![imagen](https://github.com/user-attachments/assets/697455db-461b-4e48-a6af-3c66e2adce68)
+
 
 ## Results - Expected Outcomes 
 
