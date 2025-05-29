@@ -49,7 +49,7 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 - 
 
-Capturas Cloud:
+### Capturas Cloud:
 
 Sensores Activos:
 ![imagen](https://github.com/user-attachments/assets/f93988b5-fc18-4d2b-932f-3791e5d747c5)
